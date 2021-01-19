@@ -17,5 +17,7 @@ namespace RestaurantRater.Models
 
         // The DbSet represent a collection of entities in the context
         public DbSet<Restaurant> Restaurants { get; set; } // The restaurant will have a table inside the database
+
+        public DbSet <Rating> Ratings { get; set; }
     }
 }
